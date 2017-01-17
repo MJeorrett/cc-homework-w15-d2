@@ -5,3 +5,20 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Show.delete_all
+
+Show.create({
+  title: "The Great British Bake Off",
+  series: 7,
+  description: "Master bakers Mary & Paul and the incomparable presenting duo of Mel & Sue are back for another interesting series about baking cakes.",
+  image_url: "placeholder.jpg",
+  programme_id: "b013pqnm"
+})
+Show.create({
+  title: "Room 101",
+  series: 7,
+  description: "Lee Evans hosts a show where celebrities try to pursuade him to send their least favourite things to room 101",
+  image_url: "placeholder.jpg",
+  programme_id: "ttdsx45"
+})
