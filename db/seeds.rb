@@ -22,3 +22,18 @@ Show.create({
   image_url: "placeholder.jpg",
   programme_id: "ttdsx45"
 })
+
+User.delete_all
+
+User.create({
+  first_name: "Matthew",
+  last_name: "Jeorrett"
+})
+User.create({
+  first_name: "Catriona",
+  last_name: "Jeorrett"
+})
+User.create({
+  first_name: "Ben",
+  last_name: "Thompson"
+})
