@@ -4,7 +4,7 @@ class UsersController < ApplicationController
     users = User.all
     render json: users.as_json(
       include: [
-        { shows: { except: :id } }
+        { favourite_shows: { except: :id } }
       ]
     )
   end
